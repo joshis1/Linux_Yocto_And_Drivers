@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\Users\shreyas.joshi\Documents\test.elf
+	C:\Users\shreyas.joshi\Documents\u-boot.elf
+}

@@ -1,0 +1,7 @@
+ZYNQ BOARD
+M:	Shreyas Joshi <shreyasjoshi15@gmail.com>
+S:	Maintained
+F:	arch/arm/dts/zinc-*
+F:	board/kush/zinc/
+F:	include/configs/zinc*.h
+F:	configs/zinc_*_defconfig
