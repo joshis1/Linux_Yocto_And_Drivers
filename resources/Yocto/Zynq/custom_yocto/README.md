@@ -5,6 +5,7 @@ In this yocto project, we have the machine called - "kush-zinc.conf".
 
 ### 1) checkout steps
 git clone https://github.com/joshis1/Linux_Yocto_And_Drivers.git 
+
 git submodule update --init --recursive  
 
 ### 2) Environment setup  
