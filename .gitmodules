@@ -1,0 +1,12 @@
+[submodule "resources/Yocto/Zynq/custom_yocto/poky"]
+	path = resources/Yocto/Zynq/custom_yocto/poky
+	url = git://git.yoctoproject.org/poky
+        branch = warrior
+[submodule "resources/Yocto/Zynq/custom_yocto/meta-openembedded"]
+	path = resources/Yocto/Zynq/custom_yocto/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+        branch = warrior
+[submodule "resources/Yocto/Zynq/custom_yocto/meta-xilinx"]
+	path = resources/Yocto/Zynq/custom_yocto/meta-xilinx
+	url = https://github.com/Xilinx/meta-xilinx.git
+        branch = warrior
