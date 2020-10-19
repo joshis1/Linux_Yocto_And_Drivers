@@ -6,7 +6,8 @@ KUSH_RELEASE_VERSION ?= ""
 UBOOT_VERSION_EXTENSION ?= "-kush-${KUSH_RELEASE_VERSION}"
 PV = "${UBOOT_VERSION}${UBOOT_VERSION_EXTENSION}+git${SRCPV}"
 
-UBOOTURI ?= "git://github.com/joshis1/uboot.git;protocol=https"
+
+UBOOTURI ?= "git://github.com/joshis1/uboot-microzed-kush-zynq.git;protocol=https"
 UBRANCH ?= "warrior"
 UBRANCHARG = "${@['nobranch=1', 'branch=${UBRANCH}'][d.getVar('UBRANCH', True) != '']}"
 

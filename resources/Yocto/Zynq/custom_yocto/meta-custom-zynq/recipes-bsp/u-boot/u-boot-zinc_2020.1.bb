@@ -3,7 +3,7 @@ KUSH_RELEASE_VERSION = "v2020.1"
 
 UBRANCH ?= "warrior"
 
-SRCREV ?= "8f36a9574c7c5b00955de19c7436b469b5892c2f"
+SRCREV ?= "72843922e8a0b9b575d4e6179ca9bdfb2badb1c5"
 
 include u-boot-kush.inc
 #include u-boot-spl-zynq-init.inc
