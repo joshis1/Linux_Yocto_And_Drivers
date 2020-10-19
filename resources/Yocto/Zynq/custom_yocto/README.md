@@ -22,12 +22,12 @@ $bitbake core-image-minimal
 
 # Kernel link
 
-https://github.com/joshis1/kernel   
+https://github.com/joshis1/kernel-microzed-kush-zynq   
 
 
 # Uboot link
 
-https://github.com/joshis1/uboot  
+https://github.com/joshis1/uboot-microzed-kush-zynq  
 
 
 # Important notes.
