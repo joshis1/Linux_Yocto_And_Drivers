@@ -8,7 +8,7 @@ KBRANCH ?= ""
 SRCBRANCHARG = "${@['nobranch=1', 'branch=${KBRANCH}'][d.getVar('KBRANCH', True) != '']}"
 
 FILESOVERRIDES_append = ":${KUSH_RELEASE_VERSION}"
-KERNELURI ?= "git://github.com/joshis1/kernel.git;protocol=https"
+KERNELURI ?= "git://github.com/joshis1/kernel-microzed-kush-zynq.git;protocol=https"
 SRC_URI = "${KERNELURI};${SRCBRANCHARG}"
 
 SRCREV_machine ?= "${SRCREV}"
