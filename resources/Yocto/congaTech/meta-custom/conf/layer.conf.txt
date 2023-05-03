@@ -1,0 +1,12 @@
+# We have a conf and classes directory, add to BBPATH
+BBPATH .= ":${LAYERDIR}"
+
+# We have a recipes-* directories, add to BBFILES
+BBFILES += "${LAYERDIR}/recipes-*/*/*.bb \
+	${LAYERDIR}/recipes-*/*/*.bbappend"
+
+BBFILE_COLLECTIONS += "meta-custom-overlay"
+BBFILE_PATTERN_meta-custom-overlay = "^${LAYERDIR}/"
+BBFILE_PRIORITY_meta-custom-overlay = "20"
+
+LAYERSERIES_COMPAT_meta-custom-overlay = "dunfell gatesgarth hardknott honister kirkstone"

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="2"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="https://git.congatec.com/x86" name="congatech"/>
+  <remote fetch="https://code.qt.io/yocto"  name="QT5"/>
+  <remote fetch="https://github.com/MarkusVolk/"  name="wayland"/>
+
+  
+ 
+ 
+  <project name="poky" path="sources/poky" remote="yocto" revision="b3dc6fe286f61e05b937166ca71654fdf5c3f5f5" upstream="kirkstone"/>
+  <project name="meta-intel" path="sources/meta-intel" remote="yocto" revision="64e8ccb47e11fc021a2a679f2e05d849b7518461" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="a7413c5d7568ce91b809ed11f84305b1afb468bb" upstream="kirkstone"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="82c75b466e55d7dca7a2364986ecb704cf63d141" upstream="kirkstone"/>
+  <project name="meta-python2" path="sources/meta-python2" remote="oe" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone"/>
+
+  <project name="meta-congatec-x86" path="sources/meta-congatec-x86" remote="congatech" revision="fa1c853b6acfd598f900e9d3a1a4e4c80dd94bb0" upstream="kirkstone"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="aec1934cb2708236c033f2d205d5c3fbbebf7555" upstream="upstream/kirkstone"/>
+  <project name="meta-wayland" path="sources/meta-wayland" remote="wayland" revision="d33bc4032c65fc3150ff993d6a7bee1c1161d779" upstream="kirkstone"/>
+
+
+</manifest>
